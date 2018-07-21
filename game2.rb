@@ -15,7 +15,7 @@ def threedart
 	while @points <= 501 do
 		while counter < 3 do
 			throw
-			score = rand(1..60)
+			score = rand(0..60)
 			
 			puts "You got #{score}"
 			counter += 1 
